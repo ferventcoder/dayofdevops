@@ -5,13 +5,19 @@
 
 ## Layout of Each Lab
 
-### Instruction & Demo
-### Lab
-### Review
+Template:
+```
+# Lab # - THEME
+## Instruction & Demo
+## Lab
+## Review
+```
+
 
 ## Demos
 
-## Docker
+### Docker
+### The Foreman
 
 ## DevOps Labs
 
