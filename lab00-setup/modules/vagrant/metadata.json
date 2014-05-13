@@ -1,0 +1,36 @@
+{
+  "name": "emyl-vagrant",
+  "version": "0.1.0",
+  "source": "UNKNOWN",
+  "author": "Emiliano Ticci",
+  "license": "MIT",
+  "summary": "Install vagrant and, optionally, vagrant boxes and plugins",
+  "description": "\nThis module installs vagrant and, optionally, vagrant boxes and plugins.\n\nWorks on all the platforms supported by vagrant:\n\n- Centos/Red Hat\n- Debian/Ubuntu\n- Mac OS X\n- Windows\n\nVagrant is a tool for building and distributing development environments.\n",
+  "project_page": "https://github.com/emyl/puppet-vagrant",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "LICENSE.txt": "39477e54838cf822396a72a8b908c1dc",
+    "Modulefile": "d2f51244fea3cee2260972b75ef7d48c",
+    "README.md": "5d7ea80f2ec6602d24fcea74ab785255",
+    "lib/facter/ostempdir.rb": "652dac95805ad41fbf0bc5493a354e11",
+    "lib/facter/vagrantversion.rb": "3721c018d7051ff3087f95fabd1bc0ad",
+    "lib/puppet/parser/functions/get_latest_vagrant_version.rb": "7ce87b9b93bdd4564a4729add27761c4",
+    "manifests/box.pp": "0089aaa8cd28d8e929a5c615a5a94133",
+    "manifests/command.pp": "95b78fbf94afe3b45a12be9feee018f4",
+    "manifests/init.pp": "4c0b114c500b458d087f0a557b29fc0c",
+    "manifests/params.pp": "59a16e8815d9bf421b21f0c6716890ab",
+    "manifests/plugin.pp": "4a971d3d9277a8889c55cfef167d7dcc",
+    "spec/classes/vagrant_spec.rb": "527ffff3fac042394a9606c6714b022b",
+    "spec/defines/vagrant_box_spec.rb": "db660f6f04891976d6678c3b294f90f7",
+    "spec/defines/vagrant_command_spec.rb": "865b23097b6108c3b1197bd8c91a389a",
+    "spec/defines/vagrant_plugin_spec.rb": "83ab9fb1f85b135ced662b5d838b8322",
+    "spec/fixtures/manifests/site.pp": "d41d8cd98f00b204e9800998ecf8427e",
+    "spec/spec_helper.rb": "792eeb7aa7edafb93e2bc1d27c5e75c5",
+    "tests/init.pp": "9a54e6528dc939aa40b1d6fd53859646"
+  }
+}

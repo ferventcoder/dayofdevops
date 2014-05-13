@@ -1,0 +1,33 @@
+{
+  "name": "gini-virtualbox",
+  "version": "0.2.4",
+  "source": "https://github.com/gini/puppet-virtualbox",
+  "author": "Jochen Schalanda",
+  "license": "Apache 2.0",
+  "summary": "Puppet module to install Oracle VirtualBox from the official Oracle Linux repository",
+  "description": "A Puppet module to install VirtualBox from the official Oracle Linux repository.",
+  "project_page": "https://github.com/gini/puppet-virtualbox",
+  "dependencies": [
+    {
+      "name": "puppetlabs/apt",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Gemfile": "b9cc73f1051890bdf7287d577e7a5278",
+    "LICENSE-2.0.txt": "3b83ef96387f14655fc854ddc3c6bd57",
+    "Modulefile": "442b8398edcb739dbbf2cab99d5e5a57",
+    "README.md": "fec367504fc7eecd24992030c69914c6",
+    "Rakefile": "cd90e68050b0afee6aa8ed238eee4ef6",
+    "manifests/init.pp": "75de10da39206dfd7edb5bbb6a365be2",
+    "manifests/params.pp": "10880553dbee3fb1e52cbb56faf5dc06",
+    "manifests/repo/debian.pp": "77938640105d970cf5c5b01b2138a378",
+    "manifests/repo/redhat.pp": "de35ee149b203a46379f641bb2506d18",
+    "manifests/repo.pp": "0a640ef5920bb8c4cceb69183efb12fd",
+    "spec/fixtures/manifests/init.pp": "d41d8cd98f00b204e9800998ecf8427e",
+    "spec/spec_helper.rb": "3011a30b013ba2e44f7bf8615fdf2b8a"
+  }
+}
