@@ -34,4 +34,9 @@ Vagrant.configure("2") do |config|
     puppet.manifest_file  = "provision.pp"
     puppet.module_path = "puppet/modules"
   end
+
+  # Use the host's DNS resolver
+  config.vm.provider "virtualbox" do |v| 
+    v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+  end
 end
