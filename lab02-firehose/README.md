@@ -44,9 +44,10 @@ The lab will start you with an almost complete setup, save a few edits.
  1. Open puppet/manifests/provision.pp in an editor.
  1. Change package roundhouse's setting `ensure => installed` to `ensure => latest`.
  1. On the host machine, type `vagrant provision`. Note the output.
-1. Type `vagrant ssh`.
+ 1. Type `vagrant ssh`.
  1. Type `choco list -lo`. This will print the installed packages and their versions.
  1. Note that the roundhouse package is on the updated version.
  1. Type `exit`.
+ 1. Type `vagrant destroy`. Confirm that you want to remove the box.
 
 ## Review
