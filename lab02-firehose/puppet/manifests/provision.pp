@@ -13,8 +13,8 @@ package { 'vim':
 
 node /^win.*$/ {
   package {'roundhouse':
-    ensure => latest,
-    source => 'c:\vagrant\resources\packages',
+    ensure => installed,
+    source => 'c:/vagrant/resources/packages',
   }
 
 }
