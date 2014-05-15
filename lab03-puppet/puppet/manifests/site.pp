@@ -13,6 +13,20 @@ node default {
   }
 }
 
+node centos {
+  file { '/home/vagrant/from_master_sync':
+    ensure => file,
+    content => 'This was put here on a master sync',
+  }
+}
+
+node ubuntu {
+  file { '/home/vagrant/from_master_sync':
+    ensure => file,
+    content => 'This was put here on a master sync',
+  }
+}
+
 # any box that starts with win
 node /^win.*$/ {
   file { [
