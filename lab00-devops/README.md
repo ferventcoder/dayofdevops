@@ -1,6 +1,6 @@
 # Lab 1 - DevOps Defined
 
-Time - 1hr - This will be another hour (might be combined with first lab if first lab is automated)
+Time - 1hr
 
 ## Instruction & Demo
 
