@@ -1,20 +1,12 @@
-# Ensure chocolatey is used for Windows
-case $::operatingsystem {
-  windows: {
-    Package {
-      provider => chocolatey,
-    }
-  }
-}
 
 package { 'vim':
- ensure => installed,
+  ensure => installed,
+  provider => chocolatey,
 }
 
-node /^win.*$/ {
-  package {'roundhouse':
-    ensure => installed,
-    source => 'c:/vagrant/resources/packages',
-  }
-
+package {'roundhouse':
+  ensure => installed,
+  provider => chocolatey,
+  source => 'c:/vagrant/resources/packages',
 }
+
