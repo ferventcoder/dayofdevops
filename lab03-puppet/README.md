@@ -39,6 +39,7 @@ Time - 2hrs
 
 ### Exercise 4
 
+ 1. http://docs.puppetlabs.com/puppet/latest/reference/lang_exported.html
  1. Create an exported user resource for the ubuntu box.
  1. Realize the user in the default node.
  1. Run the agent on all of the boxes.
