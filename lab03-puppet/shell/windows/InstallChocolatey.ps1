@@ -3,7 +3,6 @@ $ChocoInstallPath = "$env:SystemDrive\Chocolatey\bin"
 # Put chocolatey on the MACHINE path, vagrant does not have access to user environment variables
 $envPath = $env:PATH
 if (!$envPath.ToLower().Contains($ChocoInstallPath.ToLower())) {
-
   Write-Host "PATH environment variable does not have `'$ChocoInstallPath`' in it. Adding..."
   $ActualPath = [Environment]::GetEnvironmentVariable('Path', [System.EnvironmentVariableTarget]::Machine)
   $StatementTerminator = ";"
